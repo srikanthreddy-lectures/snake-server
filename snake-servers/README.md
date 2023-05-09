@@ -10,14 +10,8 @@ For Java:
     + setup M2_HOME variable
     + setup Path variable
     + open cmd and run command 'mvn -version' it should print valid java and maven location
-- import this project as Maven project into Intellij Idea (Eclipse/ is not recommended)
+- import this project as Maven project into Intellij Idea / Eclipse
 - please install Engine dependency
-    + on page http://server/codenjoy-contest/help
-        * you can download zip with dependency
-            - server = server_host_ip:8080 server ip inside your LAN
-            - server = codenjoy.com if you play on http://codenjoy.com/codenjoy-contest
-        * on this page you can also read game instructions
-- register your hero on server http://server/codenjoy-contest/register
 - in class .\src\main\java\com\codenjoy\dojo\bomberman\client\YourSolver.java
     + copy board page browser url from address bar and paste into main method
     + implement logic inside method
